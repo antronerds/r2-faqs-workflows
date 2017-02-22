@@ -4,10 +4,10 @@
 Frequently Asked Questions (FAQs)
 ===========================================
 
-*A collections of questions about the R2 platform*
+*A collections of questions and answers about the R2 platform*
 
 
-Subheader (H2) also appears in TOC
+First question
 -----
 
 -  A bulleted list is created by a minus, plus or asterisk followed by two spaces
@@ -15,7 +15,7 @@ Subheader (H2) also appears in TOC
   -  Subitem by two spaces
 
 
-Third subheader 
+Second question 
 -----
 
 1.  This will give a numbered list

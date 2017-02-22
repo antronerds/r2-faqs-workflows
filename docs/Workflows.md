@@ -7,7 +7,7 @@ Workflows
 *Typical workflows that explore the combinations of analysis possible in R2*
 
 
-Subheader (H2) also appears in TOC
+Workflow: Array data analysis; find groups
 -----
 
 -  A bulleted list is created by a minus, plus or asterisk followed by two spaces
@@ -15,7 +15,7 @@ Subheader (H2) also appears in TOC
   -  Subitem by two spaces
 
 
-Third subheader 
+Workflow: 
 -----
 
 1.  This will give a numbered list
