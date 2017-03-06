@@ -1,13 +1,13 @@
 <a id="r2_faqs"> </a>
 
 
-Frequently Asked Questions (FAQs)
+R2 Frequently Asked Questions (FAQs)
 ===========================================
 
 *A collections of questions and answers about the R2 platform*
 
 
-First question
+General analysis questions.
 -----
 
 -  A bulleted list is created by a minus, plus or asterisk followed by two spaces
@@ -15,7 +15,7 @@ First question
   -  Subitem by two spaces
 
 
-Second question 
+
 -----
 
 1.  This will give a numbered list
