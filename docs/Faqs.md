@@ -7,11 +7,9 @@ R2 Frequently Asked Questions (FAQs)
 *A collections of questions and answers about the R2 platform*
 
 
-General analysis questions.
+General questions.
 -----
 
-
------
 
 1.	Which platforms does R2- suport
 2.  	Can I shield my data up to publication
