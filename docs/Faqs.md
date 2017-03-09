@@ -13,8 +13,10 @@ General analysis questions.
 
 -----
 
-1.   Which platform does R2- suport
-2.  Next item
+1.	Which platforms does R2- suport
+2.  	Can I shield my data up to publication
+3. 	Can I upload my own or public data
+4. 	
 	
 	To continue numbering after enter or figure, indent the whole paragraph with a tab, or more tabs when in sublist
 	
