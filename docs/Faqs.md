@@ -10,14 +10,10 @@ R2 Frequently Asked Questions (FAQs)
 General analysis questions.
 -----
 
--  Which platform does R2- suport
-- 
-
-
 
 -----
 
-1.  This will give a numbered list
+1.   Which platform does R2- suport
 2.  Next item
 	
 	To continue numbering after enter or figure, indent the whole paragraph with a tab, or more tabs when in sublist
