@@ -10,9 +10,8 @@ R2 Frequently Asked Questions (FAQs)
 General analysis questions.
 -----
 
--  A bulleted list is created by a minus, plus or asterisk followed by two spaces
--  Next item
-  -  Subitem by two spaces
+-  Which platform does R2- suport
+- 
 
 
 
