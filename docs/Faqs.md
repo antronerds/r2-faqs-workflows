@@ -13,7 +13,12 @@ General questions.
 
 1.  Which platforms does R2- suport
 2.  Can I shield my data up to publication	
-3.  And the third continues
+3.  Which kind of data does r2 support
+4.  Expression data platforms are supported by R2.
+5.  Can I  analyse my date within in collaborative setting
+6.  Why can't I see survival data in my dataset of interest
+7. Can I upload my own data
+
 
 
 
