@@ -11,13 +11,15 @@ General questions.
 -----
 
 
-1.  Which platforms does R2- suport
-2.  Can I shield my data up to publication	
-3.  Which kind of data does r2 support
-4.  Expression data platforms are supported by R2.
-5.  Can I  analyse my date within in collaborative setting
+1.  Which platforms does R2- suport?
+2.  Can I shield my data up to publication?	
+3.  Which kind of data does r2 support?
+4.  Expression data platforms are supported by R2?
+5.  Can I  analyse my date within in collaborative setting?
 6.  Why can't I see survival data in my dataset of interest
-7. Can I upload my own data
+7.  Can I upload my own data?
+8.  How can I make corrections to data that I already submitted?
+9.  How can I delete my own dataset or make my dataset public?
 
 
 
@@ -26,42 +28,12 @@ General questions.
 Analysis questions.
 -----
 	
-	
-	
-	
-	To continue numbering after enter or figure, indent the whole paragraph with a tab, or more tabs when in sublist
-	
-3.  And the third continues
+1. A Gene Ontology analys resuls in a category of more then 100 entries how can I identify the individual genes?
+2. When I perform a hierarchical clustering how can I cluster for each group separately?
+3. When I perform a K-means clustering how  can extract the gene order from the program?
+4. When I use the GEO analysis tool and compare the resulting gene list I get a different gene list (70% overlap) compared to the result of the "Find differential expression" option of R2. Is there a explanation for this descrepancie.
+5. 
 
-Any text between restarts numbering
-
-4.  Next list
-  1. Two spaces create a sublist
-  *  They can be mixed
-
-Images are formatted as follows:
-
-![Figure 11: the extra settings Panel](_static/images/OneGene_Adapting.png)
-
-[**Figure 11: the extra settings Panel**](_static/images/OneGene_Adapting.png)
-
-Note the enter between the lines; this is to guarantee proper formatting in pdf
-
-The Did you know box is formatted as follows
-
----------
-  ![](_static/images/R2d2_logo.png)**Did you know box**
-
-
-> *Three or more minusses preceded by a return create a line; the > sign in front of a paragraph indents the whole paragraph and the single asterisks put it in italic*
-
----------
-
-You'll have to get used to the use of spaces and enters in Markdown; these are used for formatting
-
-
-  Two spaces at the start of a line creates a paragraph
-Type on here below  
 
 
   
