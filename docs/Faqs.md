@@ -35,6 +35,7 @@ Analysis questions.
 5. Using the  R2 grabber I got different expression levels from the same dataset compared to the TCGA alternative
 6. How do I retrieve a list of differentially expressed genes between two or more datasets
 7. In a certain article the gene name which was linked to a probe identifier gives a different gene name
+8. Why cann't I use every dataset in the megasamples analyses
 
 
 Adapting visuals.
