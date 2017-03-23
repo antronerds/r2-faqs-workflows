@@ -31,7 +31,7 @@ Analysis questions.
 1. A Gene Ontology analyses results in a category of more then 100 entries how can I identify the individual genes?
 2. When I perform a hierarchical clustering how can I cluster for each group separately?
 3. When I perform a K-means clustering how  can extract the gene order from the program?
-4. When I use the GEO analysis tool and compare the resulting gene list I get a different gene list (70% overlap) compared to the result of the "Find differential expression" option of R2. Is there an explanation for this descrepancie?
+4. When I use the GEO analysis tool and compare the resulting gene list I get a different gene list (70% overlap) compared to the result of the "Find differential expression" option of R2. Is there an explanation for this descrepancy?
 5. Using the  R2 grabber I got different expression levels from the same dataset compared to the TCGA alternative
 6. How do I retrieve a list of differentially expressed genes between two or more datasets
 7. In a certain article the gene name which was linked to a probe identifier gives a different gene name
