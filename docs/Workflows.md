@@ -63,7 +63,7 @@ Thus far all have been of the same color. We can also change the color of the ma
   <input type="hidden" name="cortype" value="transform_2log">
   <input type="hidden" name="factor" value="209757_s_at">
   <input type="hidden" name="factor2" value="209757_s_at">
-  <input type="hidden" name="exageratemark" value="circle">
+  <input type="hidden" name="exageratemark" value="yes">
   <input type="hidden" name="marksam" value="itcc0288,itcc0021,itcc0013,itcc0132:00ff00">
   <button type="submit">Show me</button>
 </form>
@@ -79,7 +79,7 @@ Thus far all have been of the same color. We can also change the color of the ma
   <input type="hidden" name="cortype" value="transform_2log">
   <input type="hidden" name="factor" value="209757_s_at">
   <input type="hidden" name="factor2" value="209757_s_at">
-  <input type="hidden" name="exageratemark" value="circle">
+  <input type="hidden" name="exageratemark" value="yes">
   <input type="hidden" name="marksam" value="itcc0288,itcc0021:ff00ff;itcc0013,itcc0132:00ff00">
   <button type="submit">Show me</button>
 </form>
