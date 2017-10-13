@@ -24,10 +24,13 @@ Workflow: Marking samples in a YY or XY plot
 
 	With the ‘samples to mark’ option, you can make samples stand out. The easiest is marking a single sample using the R2 default setting. Make sure that you add a samplename (e.g. itcc0288) from the current dataset and press ‘redraw’. The indicated sample is now highlighted by an orange line.
 
-<form name="test" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" method="POST">
-  <input type="email" name="email" placeholder="Your Email">
-  <input type="text" name="name" placeholder="Your Name">
-  <button type="submit">Submit</button>
+<form name="test" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" target="R2" method="POST">
+  <input type="hidden" name="option" placeholder="display2">
+  <input type="hidden" name="table" placeholder="ps_avgpres_nbadam88_u133p2">
+  <input type='hidden' name="graphtype" value="XY">
+  <input type='hidden' name="factor" value="209757_s_at">
+  <input type='hidden' name="factor2" value="209757_s_at">
+  <button type="submit">Show me</button>
 </form>
 
 2.  Types of markings
