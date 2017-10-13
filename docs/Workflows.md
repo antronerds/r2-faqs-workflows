@@ -27,9 +27,9 @@ Workflow: Marking samples in a YY or XY plot
 <form name="test" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" target="R2" method="POST">
   <input type="hidden" name="option" placeholder="display2">
   <input type="hidden" name="table" placeholder="ps_avgpres_nbadam88_u133p2">
-  <input type='hidden' name="graphtype" value="XY">
-  <input type='hidden' name="factor" value="209757_s_at">
-  <input type='hidden' name="factor2" value="209757_s_at">
+  <input type="hidden" name="graphtype" value="XY">
+  <input type="hidden" name="factor" value="209757_s_at">
+  <input type="hidden" name="factor2" value="209757_s_at">
   <button type="submit">Show me</button>
 </form>
 
