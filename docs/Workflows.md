@@ -24,6 +24,8 @@ Workflow: Marking samples in a YY or XY plot
 
 	With the ‘samples to mark’ option, you can make samples stand out. The easiest is marking a single sample using the R2 default setting. Make sure that you add a samplename (e.g. itcc0288) from the current dataset and press ‘redraw’. The indicated sample is now highlighted by an orange line.
 
+![Figure 1: Mark a single sample](_static/images/marksam_001.png)
+
 [**Figure 1: Mark a single sample**](_static/images/marksam_001.png)
 
 <form name="mark_single_sample" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" enctype="multipart/form-data" target="R2" method="post">
@@ -40,6 +42,8 @@ Workflow: Marking samples in a YY or XY plot
 2.  Types of markings
 
 	We can change the type of mark by changing the mark method from ‘dot’, to one of the other methods. ‘circle’ will draw an open circle around the sample; epicenter will draw a range of larger circles around the marked patient; and ‘arrow’ will place an arrow pointing to the sample.
+
+![Figure 2: Mark options](_static/images/marksam_002.png)
 
 [**Figure 2: Mark options**](_static/images/marksam_002.png)
 
@@ -60,7 +64,9 @@ Workflow: Marking samples in a YY or XY plot
 	Marking more than 1 sample is achieved by ’,’ separation (e.g. itcc0288,itcc0021,itcc0013,itcc0132).
 Thus far all have been of the same color. We can also change the color of the marker by adding ‘:’ followed by a hex color (e.g. itcc0288,itcc0021,itcc0013,itcc0132:00ff00).
 
-[**Figure 1: Mark and color multiple samples**](_static/images/marksam_003.png)
+![Figure 3: Mark and color multiple samples](_static/images/marksam_003.png)
+
+[**Figure 3: Mark and color multiple samples**](_static/images/marksam_003.png)
 
 <form name="mark_multi_sample_circle" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" enctype="multipart/form-data" target="R2" method="post">
   <input type="hidden" name="option" value="display2">
@@ -78,7 +84,9 @@ Thus far all have been of the same color. We can also change the color of the ma
 
 	The previous example made all 4 samples green. We can also define groups and define different colors to every group. Groups are separated by ‘;’. To color our previous example with 2 groups, each having a different color, we define the following: itcc0288,itcc0021:ff00ff;itcc0013,itcc0132:00ff00
 
-[**Figure 1: Mark with sample groups**](_static/images/marksam_004.png)
+![Figure 4: Mark with sample groups](_static/images/marksam_004.png)
+
+[**Figure 4: Mark with sample groups**](_static/images/marksam_004.png)
 
 <form name="mark_group_sample_circle" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" enctype="multipart/form-data" target="R2" method="post">
   <input type="hidden" name="option" value="display2">
