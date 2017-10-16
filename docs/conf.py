@@ -6,11 +6,11 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 project = u'R2 Faqs and Workflows'
-copyright = u'2016, Jan Koster'
+copyright = u'2017, Jan Koster'
 author = u'R2 support team'
 
 version = datetime.date.today().strftime('%Y-%m-%d')
-release = '1.0.0.a'
+release = '1.0.0.b'
 language = None
 
 exclude_patterns = ['_build']
