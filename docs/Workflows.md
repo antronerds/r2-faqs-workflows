@@ -125,11 +125,6 @@ Any text between restarts numbering
   1. Two spaces create a sublist
   *  They can be mixed
 
-Images are formatted as follows:
-
-![Figure 11: the extra settings Panel](_static/images/OneGene_Adapting.png)
-
-[**Figure 11: the extra settings Panel**](_static/images/OneGene_Adapting.png)
 
 Note the enter between the lines; this is to guarantee proper formatting in pdf
 
