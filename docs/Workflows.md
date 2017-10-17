@@ -121,49 +121,27 @@ Thus far all have been of the same color. We can also change the color of the ma
   <button type="submit">Show me</button>
 </form>
 
-Workflow: Array data analysis; find groups
------
-
--  A bulleted list is created by a minus, plus or asterisk followed by two spaces
--  Next item
-  -  Subitem by two spaces
-
-
-Workflow: 
------
-
-1.  This will give a numbered list
-2.  Next item
-	
-	To continue numbering after enter or figure, indent the whole paragraph with a tab, or more tabs when in sublist
-	
-3.  And the third continues
-
-Any text between restarts numbering
-
-4.  Next list
-  1. Two spaces create a sublist
-  *  They can be mixed
-
-
-Note the enter between the lines; this is to guarantee proper formatting in pdf
-
-The Did you know box is formatted as follows
-
 ---------
   ![](_static/images/R2d2_logo.png)**Did you know box**
 
 
-> *Three or more minusses preceded by a return create a line; the > sign in front of a paragraph indents the whole paragraph and the single asterisks put it in italic*
+> *R2 knows a couple of mark options, that you can make use of in the advanced prescriptions: 
+
+'dot': places a thick border around the sample
+'circle': Places a ring around the sample (diameter 9)
+'circle_2': Places a ring around the sample (diameter 4)
+'circle_3': Places a ring around the sample (diameter 1), effectively a thin border
+'epicenter': Places a set of 3 rings descending in width around a sample
+'arrow': Places a block arrow pointing to the sample
+'triangle': Places a filled triangle under the sample
+
+Note: The dotsize does not scale with 'arrow' and 'triangle' method. 
+*
 
 ---------
 
-You'll have to get used to the use of spaces and enters in Markdown; these are used for formatting
 
-
-  Two spaces at the start of a line creates a paragraph
-Type on here below  
-
+For description of many functions in R2, we have assembled a tutorial book, which can be found here.
 
   
 
