@@ -143,7 +143,7 @@ Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 Workflow: Final Remarks
 -----
 
-For description of many functions in R2, we have assembled a tutorial book, which can be found at <http://r2-tutorials.readthedocs.io/en/latest/index.html>.
+For description of many functions in R2, we have assembled a tutorial book, which can be found at [r2-tutorials](http://r2-tutorials.readthedocs.io/en/latest/index.html "R2 turorials at ReadTheDocs").
 
   
 
