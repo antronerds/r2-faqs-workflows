@@ -100,6 +100,22 @@ Thus far all have been of the same color. We can also change the color of the ma
   <button type="submit">Show me</button>
 </form>
 
+5.  Advanced usage
+
+	As a default, the mark method will be defined from the dropdown box as we have used in step 2. However, you can also define the method within the 'samples to mark' box by adding another ':' after the color representation. Defining this will overrule the default setting, and thus also enable the use of different markings within the same figure. So the skeleton for advanced usage is : 
+'sample1,sample2:color1:method1;sample3,sample4:color2:method2'. For example: '"itcc0288:0000ff:dot;itcc0021:ff00ff:arrow;itcc0013,itcc0132:00ff00:epicenter"' creates the markings as shown in the figure.
+
+<form name="mark_group_sample_circle_advanced" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" enctype="multipart/form-data" target="R2" method="post">
+  <input type="hidden" name="option" value="display2">
+  <input type="hidden" name="table" value="ps_avgpres_nbadam88_u133p2">
+  <input type="hidden" name="graphtype" value="YY">
+  <input type="hidden" name="cortype" value="transform_2log">
+  <input type="hidden" name="factor" value="209757_s_at">
+  <input type="hidden" name="factor2" value="209757_s_at">
+  <input type="hidden" name="exageratemark" value="yes">
+  <input type="hidden" name="marksam" value="itcc0288:0000ff:dot;itcc0021:ff00ff:arrow;itcc0013,itcc0132:00ff00:epicenter">
+  <button type="submit">Show me</button>
+</form>
 
 Workflow: Array data analysis; find groups
 -----
