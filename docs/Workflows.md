@@ -136,6 +136,14 @@ Thus far all have been of the same color. We can also change the color of the ma
 
 >*Note: The dotsize does not scale with 'arrow' and 'triangle' method.*
 
+
+Workflow: Drawing lines between samples in an XY plot
+-----
+
+1. Drawing a line between 2 samples
+
+	To indicate a relation between different samples within a dataset it can sometimes be informative to add a line between samples. One can think of a pair for example, or perhaps a temporal relationship such as an on-off state or a time series. Within the XY plot of R2, we have a variable called 'sample paths', which can be used to add a line between samples. The easiest example, is to connect 2 samples within a plot. 
+
 ---------
 
 
