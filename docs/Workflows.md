@@ -161,6 +161,83 @@ Workflow: Drawing lines between samples in an XY plot
   <button type="submit">Show me</button>
 </form>
 
+2. Path properties
+	The appearance of the line can also be influenced by providing a color (hex number) and a linewidth. The recipe for these adaptations makes use of ':' and works as follows. sample1,sample2:colorcode:width. Let's give this a try by making the line red with a thickness of 3. Add 'gsm2413241,gsm2413246:#ff0000:3' to the path box.  
+	
+![Figure 2: path properties](_static/images/samplepath_002.png)
+
+[**Figure 2: path properties**](_static/images/samplepath_002.png)
+
+<form name="path_add_line" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" enctype="multipart/form-data" target="R2" method="post">
+  <input type="hidden" name="option" value="display2">
+  <input type="hidden" name="table" value="ps_avgpres_gsenatgen2017geo52_u133p2">
+  <input type="hidden" name="graphtype" value="XY">
+  <input type="hidden" name="dotsize" value="6">
+  <input type="hidden" name="cortype" value="transform_none">
+  <input type="hidden" name="selectedtrack" value="adrn_score">
+  <input type="hidden" name="selectedtracky" value="mes_score">
+  <input type="hidden" name="chainedsams" value="gsm2413241,gsm2413246:#ff0000:3">
+  <button type="submit">Show me</button>
+</form>
+
+3. Drawing multiple paths
+	We can draw multiple paths by separating them with ';'. Let's give this a try by drawing a line between 4 pairs of samples in the current dataset in light grey. Add 'gsm2413241,gsm2413246:#eeeeee;gsm2413239,gsm2413243:#eeeeee;gsm2413242,gsm2413245:#eeeeee;gsm2413240,gsm2413244:#eeeeee' in the sample path box.
+	
+![Figure 3: Connect 2 samples](_static/images/samplepath_003.png)
+
+[**Figure 3: Connect 2 samples**](_static/images/samplepath_003.png)
+
+<form name="path_add_line" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" enctype="multipart/form-data" target="R2" method="post">
+  <input type="hidden" name="option" value="display2">
+  <input type="hidden" name="table" value="ps_avgpres_gsenatgen2017geo52_u133p2">
+  <input type="hidden" name="graphtype" value="XY">
+  <input type="hidden" name="dotsize" value="6">
+  <input type="hidden" name="cortype" value="transform_none">
+  <input type="hidden" name="selectedtrack" value="adrn_score">
+  <input type="hidden" name="selectedtracky" value="mes_score">
+  <input type="hidden" name="chainedsams" value="gsm2413241,gsm2413246:#eeeeee;gsm2413239,gsm2413243:#eeeeee;gsm2413242,gsm2413245:#eeeeee;gsm2413240,gsm2413244:#eeeeee">
+  <button type="submit">Show me</button>
+</form>
+
+4. Drawing multisample paths
+
+	If the width and color of multiple samples can be the same, then you can also define longer paths by adding more samples in a row, by adding more samples, divided by a ','. Lets give this a try by defining a time series within this dataset. Add 'gsm2413257,gsm2413247,gsm2413248,gsm2413249,gsm2413250,gsm2413251,gsm2413252,gsm2413253,gsm2413254,gsm2413255,gsm2413256:#222222' to the box. 
+
+	
+![Figure 4: Connect 2 samples](_static/images/samplepath_004.png)
+
+[**Figure 4: Connect 2 samples**](_static/images/samplepath_004.png)
+
+<form name="path_add_line" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" enctype="multipart/form-data" target="R2" method="post">
+  <input type="hidden" name="option" value="display2">
+  <input type="hidden" name="table" value="ps_avgpres_gsenatgen2017geo52_u133p2">
+  <input type="hidden" name="graphtype" value="XY">
+  <input type="hidden" name="dotsize" value="6">
+  <input type="hidden" name="cortype" value="transform_none">
+  <input type="hidden" name="selectedtrack" value="adrn_score">
+  <input type="hidden" name="selectedtracky" value="mes_score">
+  <input type="hidden" name="chainedsams" value="gsm2413257,gsm2413247,gsm2413248,gsm2413249,gsm2413250,gsm2413251,gsm2413252,gsm2413253,gsm2413254,gsm2413255,gsm2413256:#222222">
+  <button type="submit">Show me</button>
+</form>
+
+
+'gsm2413241,gsm2413246:#eeeeee;gsm2413239,gsm2413243:#eeeeee;gsm2413242,gsm2413245:#eeeeee;gsm2413240,gsm2413244:#eeeeee;gsm2413257,gsm2413247,gsm2413248,gsm2413249,gsm2413250,gsm2413251,gsm2413252,gsm2413253,gsm2413254,gsm2413255,gsm2413256:#222222' in the sample path box.
+	
+![Figure 5: Connect 2 samples](_static/images/samplepath_005.png)
+
+[**Figure 5: Connect 2 samples**](_static/images/samplepath_005.png)
+
+<form name="path_add_line" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" enctype="multipart/form-data" target="R2" method="post">
+  <input type="hidden" name="option" value="display2">
+  <input type="hidden" name="table" value="ps_avgpres_gsenatgen2017geo52_u133p2">
+  <input type="hidden" name="graphtype" value="XY">
+  <input type="hidden" name="dotsize" value="6">
+  <input type="hidden" name="cortype" value="transform_none">
+  <input type="hidden" name="selectedtrack" value="adrn_score">
+  <input type="hidden" name="selectedtracky" value="mes_score">
+  <input type="hidden" name="chainedsams" value="gsm2413241,gsm2413246:#eeeeee;gsm2413239,gsm2413243:#eeeeee;gsm2413242,gsm2413245:#eeeeee;gsm2413240,gsm2413244:#eeeeee;gsm2413257,gsm2413247,gsm2413248,gsm2413249,gsm2413250,gsm2413251,gsm2413252,gsm2413253,gsm2413254,gsm2413255,gsm2413256:#222222">
+  <button type="submit">Show me</button>
+</form>
 
 
 
