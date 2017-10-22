@@ -143,18 +143,25 @@ Workflow: Drawing lines between samples in an XY plot
 
 1. Drawing a line between 2 samples
 
-	To indicate a relation between different samples within a dataset it can sometimes be informative to add a line between samples. One can think of a pair for example, or perhaps a temporal relationship such as an on-off state or a time series. Within the XY plot of R2, we have a variable called 'sample paths', which can be used to add a line between samples. The easiest example, is to connect 2 samples within a plot. Using dataset '', we can add a line between a pair of samples by putting 'gsm2413241,gsm2413246' in the sample paths input.
+	To indicate a relation between different samples within a dataset it can sometimes be informative to add a line between samples. One can think of a pair for example, or perhaps a temporal relationship such as an on-off state or a time series. Within the XY plot of R2, we have a variable called 'sample paths', which can be used to add a line between samples. The easiest example, is to connect 2 samples within a plot. Using dataset 'Mixed Neuroblastoma (MES-ADRN-Crest-Exp) - Versteeg - 52 - MAS5.0 - u133p2', we can add a line between a pair of samples by putting 'gsm2413241,gsm2413246' in the sample paths input.
+
+![Figure 1: Connect 2 samples](_static/images/samplepath_001.png)
+
+[**Figure 1: Connect 2 samples**](_static/images/samplepath_001.png)
 
 <form name="path_add_line" action="https://hgserver1.amc.nl/cgi-bin/r2/main.cgi" enctype="multipart/form-data" target="R2" method="post">
   <input type="hidden" name="option" value="display2">
   <input type="hidden" name="table" value="ps_avgpres_gsenatgen2017geo52_u133p2">
   <input type="hidden" name="graphtype" value="XY">
+  <input type="hidden" name="dotsize" value="6">
   <input type="hidden" name="cortype" value="transform_none">
   <input type="hidden" name="selectedtrack" value="adrn_score">
   <input type="hidden" name="selectedtracky" value="mes_score">
   <input type="hidden" name="chainedsams" value="gsm2413241,gsm2413246">
   <button type="submit">Show me</button>
 </form>
+
+
 
 
 Workflow: Final Remarks
