@@ -181,7 +181,7 @@ Workflow: Drawing lines between samples in an XY plot
 </form>
 
 3. Drawing multiple paths
-	We can draw multiple paths by separating them with ';'. Let's give this a try by drawing a line between 4 pairs of samples in the current dataset in light grey. Add 'gsm2413241,gsm2413246:#eeeeee;gsm2413239,gsm2413243:#eeeeee;gsm2413242,gsm2413245:#eeeeee;gsm2413240,gsm2413244:#eeeeee' in the sample path box.
+	We can draw multiple paths by separating them with ';'. Let's give this a try by drawing a line between 4 pairs of samples in the current dataset in light grey. Add 'gsm2413241,gsm2413246:#eeeeee; gsm2413239,gsm2413243:#eeeeee; gsm2413242,gsm2413245:#eeeeee; gsm2413240,gsm2413244:#eeeeee' in the sample path box.
 	
 ![Figure 3: Connect 2 samples](_static/images/samplepath_003.png)
 
@@ -201,7 +201,7 @@ Workflow: Drawing lines between samples in an XY plot
 
 4. Drawing multisample paths
 
-	If the width and color of multiple samples can be the same, then you can also define longer paths by adding more samples in a row, by adding more samples, divided by a ','. Lets give this a try by defining a time series within this dataset. Add 'gsm2413257,gsm2413247,gsm2413248,gsm2413249,gsm2413250,gsm2413251,gsm2413252,gsm2413253,gsm2413254,gsm2413255,gsm2413256:#222222' to the box. 
+	If the width and color of multiple samples can be the same, then you can also define longer paths by adding more samples in a row, by adding more samples, divided by a ','. Lets give this a try by defining a time series within this dataset. Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gsm2413250, gsm2413251, gsm2413252, gsm2413253, gsm2413254, gsm2413255, gsm2413256:#222222' to the box. 
 
 	
 ![Figure 4: Connect 2 samples](_static/images/samplepath_004.png)
@@ -220,8 +220,8 @@ Workflow: Drawing lines between samples in an XY plot
   <button type="submit">Show me</button>
 </form>
 
-
-'gsm2413241,gsm2413246:#eeeeee;gsm2413239,gsm2413243:#eeeeee;gsm2413242,gsm2413245:#eeeeee;gsm2413240,gsm2413244:#eeeeee;gsm2413257,gsm2413247,gsm2413248,gsm2413249,gsm2413250,gsm2413251,gsm2413252,gsm2413253,gsm2413254,gsm2413255,gsm2413256:#222222' in the sample path box.
+4. Drawing multisample paths
+	We can also combine the 2 previous ones into 1 picture by addding 'gsm2413241,gsm2413246:#eeeeee; gsm2413239,gsm2413243:#eeeeee; gsm2413242,gsm2413245:#eeeeee; gsm2413240,gsm2413244:#eeeeee; gsm2413257,gsm2413247,gsm2413248,gsm2413249,gsm2413250, gsm2413251,gsm2413252,gsm2413253,gsm2413254,gsm2413255,gsm2413256:#222222' in the sample path box.
 	
 ![Figure 5: Connect 2 samples](_static/images/samplepath_005.png)
 
@@ -238,7 +238,6 @@ Workflow: Drawing lines between samples in an XY plot
   <input type="hidden" name="chainedsams" value="gsm2413241,gsm2413246:#eeeeee;gsm2413239,gsm2413243:#eeeeee;gsm2413242,gsm2413245:#eeeeee;gsm2413240,gsm2413244:#eeeeee;gsm2413257,gsm2413247,gsm2413248,gsm2413249,gsm2413250,gsm2413251,gsm2413252,gsm2413253,gsm2413254,gsm2413255,gsm2413256:#222222">
   <button type="submit">Show me</button>
 </form>
-
 
 
 Workflow: Final Remarks
