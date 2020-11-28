@@ -9,12 +9,23 @@ Workflows
 Workflow: Generate a direct link to a public dataset in R2
 -----
 
-If you would like to include a direct link to a public dataset in R2, then you can follow the procedure described here.
+If you would like to include a direct hyperlink to a public dataset in R2, then you can follow the procedure described here.
 
-1.  Make sure that you are NOT logged in with your own account. So log off in case that you are logged in.
-2.  Navigate to the dataset to which you would like to create a link. You can use the 'change dataset' link in 'box 2' for this.
-3.  Finally, click on the 'goto main' link in the upper left corner of the screen.
-4.  The web address that will now appear can be copied directly and be provided as a refeerence to the dataset.
+1. Make sure that you are NOT logged in with your own account. So log off in case that you are logged in. In this way, you are sure that the intended resource is 'public'.
+
+2. At the main page, use the 'Select Dataset' button and search for the data set that you would like to create a link to.
+
+   ![Figure 1: Creating a direct link to an R2 dataset](_static/images/direct_link_to_r2_dataset.png)
+
+   [**Figure 1: Creating a direct link to an R2 dataset**](_static/images/direct_link_to_r2_dataset.png)
+
+3. Click anywhere on the dataset record, except the 'select' button. This will load the dataset information card. At the bottom of this card you will find the dataset identifier. Copy this identifier and add it to the following address (we have used '*ps_avgpres_nbadam88_u133p2*' in the line below):
+
+   ```
+   https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?table=ps_avgpres_nbadam88_u133p2
+   ```
+
+4. The web address can be copied directly and be provided as a reference to the dataset.
 
 
 Workflow: Marking samples in a YY or XY plot
@@ -123,7 +134,7 @@ Thus far all have been of the same color. We can also change the color of the ma
 
 ---------
   ![](_static/images/R2d2_logo.png)**Did you know box**
-  
+
 
 >*R2 knows a couple of mark options, that you can make use of in the advanced prescriptions:* 
  - *'dot': places a thick border around the sample*
@@ -143,7 +154,13 @@ Workflow: Drawing lines between samples in an XY plot
 
 1. Drawing a line between 2 samples
 
-	To indicate a relation between different samples within a dataset it can sometimes be informative to add a line between samples. One can think of a pair for example, or perhaps a temporal relationship such as an on-off state or a time series. Within the XY plot of R2, we have a variable called 'sample paths', which can be used to add a line between samples. The easiest example, is to connect 2 samples within a plot. Using dataset 'Mixed Neuroblastoma (MES-ADRN-Crest-Exp) - Versteeg - 52 - MAS5.0 - u133p2', we can add a line between a pair of samples by putting 'gsm2413241,gsm2413246' in the sample paths input.
+   To indicate a relation between different samples within a dataset it can sometimes be informative to add a line between samples. One can think of a pair for example, or perhaps a temporal relationship such as an on-off state or a time series. Within the XY plot of R2, we have a variable called 'sample paths', which can be used to add a line between samples. The easiest example, is to connect 2 samples within a plot. Using dataset 'Mixed Neuroblastoma (MES-ADRN-Crest-Exp) - Versteeg - 52 - MAS5.0 - u133p2', we can add a line between a pair of samples by putting 'gsm2413241,gsm2413246' in the sample paths input.
+
+   ```
+   gsm2413241,gsm2413246
+   ```
+
+   
 
 ![Figure 1: Connect 2 samples](_static/images/samplepath_001.png)
 
@@ -162,9 +179,14 @@ Workflow: Drawing lines between samples in an XY plot
 </form>
 
 2. Path properties
-	The appearance of the line can also be influenced by providing a color (hex number) and a linewidth. The recipe for these adaptations makes use of ':' and works as follows. sample1,sample2:colorcode:width. Let's give this a try by making the line red with a thickness of 3. Add 'gsm2413241,gsm2413246:#ff0000:3' to the path box.  
-	
-![Figure 2: path properties](_static/images/samplepath_002.png)
+
+   The appearance of the line can also be influenced by providing a color (hex number) and a linewidth. The recipe for these adaptations makes use of ':' and works as follows. sample1,sample2:colorcode:width. Let's give this a try by making the line red with a thickness of 3. Add 'gsm2413241,gsm2413246:#ff0000:3' to the path box. 
+
+   ```
+   gsm2413241,gsm2413246:#ff0000:3
+   ```
+
+   ![Figure 2: path properties](_static/images/samplepath_002.png)
 
 [**Figure 2: path properties**](_static/images/samplepath_002.png)
 
@@ -181,9 +203,14 @@ Workflow: Drawing lines between samples in an XY plot
 </form>
 
 3. Drawing multiple paths
-	We can draw multiple paths by separating them with ';'. Let's give this a try by drawing a line between 4 pairs of samples in the current dataset in light grey. Add 'gsm2413241,gsm2413246:#eeeeee; gsm2413239,gsm2413243:#eeeeee; gsm2413242,gsm2413245:#eeeeee; gsm2413240,gsm2413244:#eeeeee' in the sample path box.
-	
-![Figure 3: Connect 2 samples](_static/images/samplepath_003.png)
+
+   We can draw multiple paths by separating them with ';'. Let's give this a try by drawing a line between 4 pairs of samples in the current dataset in light grey. Add 'gsm2413241,gsm2413246:#eeeeee; gsm2413239,gsm2413243:#eeeeee; gsm2413242,gsm2413245:#eeeeee; gsm2413240,gsm2413244:#eeeeee' in the sample path box.
+
+   ```
+   gsm2413241,gsm2413246:#eeeeee; gsm2413239,gsm2413243:#eeeeee; gsm2413242,gsm2413245:#eeeeee; gsm2413240,gsm2413244:#eeeeee
+   ```
+
+   ![Figure 3: Connect 2 samples](_static/images/samplepath_003.png)
 
 [**Figure 3: Connect 2 samples**](_static/images/samplepath_003.png)
 
@@ -201,9 +228,12 @@ Workflow: Drawing lines between samples in an XY plot
 
 4. Drawing multisample paths
 
-	If the width and color of multiple samples can be the same, then you can also define longer paths by adding more samples in a row, by adding more samples, divided by a ','. Lets give this a try by defining a time series within this dataset. Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gsm2413250, gsm2413251, gsm2413252, gsm2413253, gsm2413254, gsm2413255, gsm2413256:#222222' to the box. 
+   If the width and color of multiple samples can be the same, then you can also define longer paths by adding more samples in a row, by adding more samples, divided by a ','. Lets give this a try by defining a time series within this dataset. Add 'gsm2413257, gsm2413247, gsm2413248, gsm2413249, gsm2413250, gsm2413251, gsm2413252, gsm2413253, gsm2413254, gsm2413255, gsm2413256:#222222' to the box. 
 
-	
+	gsm2413257, gsm2413247, gsm2413248, gsm2413249, gsm2413250, gsm2413251, gsm2413252, gsm2413253, gsm2413254, gsm2413255, gsm2413256:#222222
+
+
+​	
 ![Figure 4: Connect 2 samples](_static/images/samplepath_004.png)
 
 [**Figure 4: Connect 2 samples**](_static/images/samplepath_004.png)
@@ -221,8 +251,11 @@ Workflow: Drawing lines between samples in an XY plot
 </form>
 
 4. Drawing multisample paths
-	We can also combine the 2 previous ones into 1 picture by addding 'gsm2413241,gsm2413246:#eeeeee; gsm2413239,gsm2413243:#eeeeee; gsm2413242,gsm2413245:#eeeeee; gsm2413240,gsm2413244:#eeeeee; gsm2413257,gsm2413247,gsm2413248,gsm2413249,gsm2413250, gsm2413251,gsm2413252,gsm2413253,gsm2413254,gsm2413255,gsm2413256:#222222' in the sample path box.
-	
+
+   We can also combine the 2 previous ones into 1 picture by addding 'gsm2413241,gsm2413246:#eeeeee; gsm2413239,gsm2413243:#eeeeee; gsm2413242,gsm2413245:#eeeeee; gsm2413240,gsm2413244:#eeeeee; gsm2413257,gsm2413247,gsm2413248,gsm2413249,gsm2413250, gsm2413251,gsm2413252,gsm2413253,gsm2413254,gsm2413255,gsm2413256:#222222' in the sample path box.
+
+	gsm2413241,gsm2413246:#eeeeee; gsm2413239,gsm2413243:#eeeeee; gsm2413242,gsm2413245:#eeeeee; gsm2413240,gsm2413244:#eeeeee; gsm2413257, gsm2413247, gsm2413248, gsm2413249,gsm2413250, gsm2413251, gsm2413252, gsm2413253, gsm2413254, gsm2413255, gsm2413256:#222222
+
 ![Figure 5: Connect 2 samples](_static/images/samplepath_005.png)
 
 [**Figure 5: Connect 2 samples**](_static/images/samplepath_005.png)
